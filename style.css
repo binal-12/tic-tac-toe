@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main: #665791;
+}
+
+body{
+    background: var(--main);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin-top: 175px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Bungee Inline';
+    font-size: 54.8571px;
+    line-height: 66px;
+    margin-bottom: 50px;
+}
+
+.fact{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28.71px;
+    line-height: 43px;
+    margin-bottom: 20px;
+}
+
+.des{
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    font-weight: 400;;
+    font-size: 20.4397px;
+    line-height: 31px;
+}
+
+#dropdownMenuButton{
+    background-color: #a995e2;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding: 8px 18px;
+}
+
+.dot{
+    padding: 39px 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 87px;
+    line-height: 10px;
+    color: var(--main);
+}
+
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    justify-items: center;
+    align-items: center;
+    /* border: 1px solid white; */
+    background: url(./Group\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    user-select: none;
+}
+
+.sign{
+    padding: 39px 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 87px;
+    line-height: 10px;
+    color: #baa5f1;
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .texts{
+        margin-bottom: 90px;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 52px;
+    }
+
+    .fact{
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .des{
+        width: 330px;
+        margin-right: 0;
+    }
+  }
