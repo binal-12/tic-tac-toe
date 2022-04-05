@@ -142,6 +142,7 @@ function checkGame(arr, str){
         if (correct[i].every(val => arr.includes(val))){
             console.log(str)
             highlight(correct[i], str)
+            setTimeout(function(){document.location.reload(true)}, 1000)
             return true
         }
     }
