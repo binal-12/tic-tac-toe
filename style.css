@@ -15,10 +15,12 @@ body{
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 main{
-    margin-top: 175px;
+    height: 100vh;
+    margin: 0 auto;
     width: 75%;
     display: flex;
     flex-direction: row;
@@ -47,6 +49,22 @@ main{
     font-weight: 400;;
     font-size: 20.4397px;
     line-height: 31px;
+}
+
+.cntnr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rfrsh{
+    cursor: pointer;
+}
+
+.refresh{
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    height: 35px;
+    margin-left: 8px;
 }
 
 #dropdownMenuButton{

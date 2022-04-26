@@ -23,14 +23,22 @@
             <h1 class="title">Tic Tac Toe</h1>
             <h2 class="fact">THE WORLD'S FIRST EVER VIDEO GAME</h2>
             <h3 class="des">Tic Tac Toe has always been groundbreaking and the digital frontier is no different. In 1952 the EDSAC computer had an inbuilt game called OXO - a crude version of the table top classic, if the truth must be told.</h3>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #4d3b81;">Single Player</button>
 
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" onclick="dropdown(this)" href="#">Single Player</a>
-                  <a class="dropdown-item" onclick="dropdown(this)" href="#">Multi-player</a>
+            <div class="cntnr">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: #4d3b81;">Single Player</button>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" onclick="dropdown(this)" href="#">Single Player</a>
+                    <a class="dropdown-item" onclick="dropdown(this)" href="#">Multi-player</a>
+                    </div>
+                </div>
+                <div class="rfrsh" onclick="refresh(this)">
+                    <img class="refresh" src="./refresh_FILL0_wght400_GRAD0_opsz48.svg" alt="">
                 </div>
             </div>
+
+
         </div>
         <div class="game">
             <h4 class="dot" onclick="press(this)">0</h4>

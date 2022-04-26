@@ -162,3 +162,8 @@ function highlight(arr, str){
         }
     }
 }
+
+
+function refresh() {
+   document.location.reload(true)
+}
